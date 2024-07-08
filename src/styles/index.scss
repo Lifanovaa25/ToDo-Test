@@ -1,0 +1,35 @@
+@import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+// body {
+//   position: relative;
+//   font-family: 'Montserrat', sans-serif;
+//   background: var(#{--body-background-default});
+// }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.day_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+@media (max-width: 620px) {
+  .day_wrapper {
+    flex-wrap: wrap;
+    > div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}

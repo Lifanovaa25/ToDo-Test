@@ -1,0 +1,48 @@
+.button {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 7px 9px;
+
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+    color: #213547;
+
+}
+
+.active {
+    border: 1.5px solid #ebd7d7;
+    border-radius: 5px;
+}
+
+.footer {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+    padding: 0 15px;
+    border-top: #eee solid 1px;
+    border-bottom: #eee solid 1px;
+
+    /* text */
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    opacity: 0.5;
+
+    position: relative;
+}
+
+.item_count {
+    width: 105px;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    /* height: 100%; */
+}
