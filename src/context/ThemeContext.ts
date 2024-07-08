@@ -11,6 +11,6 @@ export enum Theme {
 }
 
 export const ThemeContext = createContext<Props>({
-  theme: Theme.LIGHT,
+  theme: Theme.DARK,
   changeTheme: () => {},
 });

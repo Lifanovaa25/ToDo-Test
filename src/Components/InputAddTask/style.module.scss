@@ -21,8 +21,12 @@
 }
 
 .input_add_task::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
     opacity: 0.2;
-    font-style: italic;
+    font-style: italic ;
 }
 
 .input_add_task:focus {
@@ -35,7 +39,7 @@
     height: 16px;
     margin: 0 24px 0 20px;
     color: #4d4d4d;
-    fill:#4d4d4d;
-    stroke:#4d4d4d;
+    fill: #4d4d4d;
+    stroke: #4d4d4d;
     opacity: 0.2;
 }
